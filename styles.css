@@ -13,13 +13,7 @@ html {
 head{
     display:none;
 }
-body{
-    background-image: url("https://wallpaperaccess.com/full/5651980.jpg");
-    color:#5a3e2b;
-    margin:0;
-    text-align: center;
-    font-family: "Merriweather", serif;
-}
+
 .top-container{
     background-color: #ffffff;
     position: relative;
