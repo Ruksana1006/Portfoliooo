@@ -1,0 +1,201 @@
+:root {
+    view-transition-name: root;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    display: block;
+}
+head{
+    display:none;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/5651980.jpg");
+    color:#5a3e2b;
+    margin:0;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+.top-container{
+    background-color: #ffffff;
+    position: relative;
+    padding: 50px 20px 0;
+    margin: 0;
+    height: 100;
+    width: 100;
+    
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+hr {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.butterfly{
+    height:300px;
+    width:300px;
+}
+
+
+h1 {
+    color: #3c2a1f;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    padding: 5px 0;
+    
+}
+
+h2 {
+    color:#5a3e2b;
+    font-family: "Sacramento", sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    padding: 5px 0;
+}
+
+h3{
+    color:#82614b;
+    font-family: "Sacramento" , sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;;
+}
+p{
+    line-height: 2;
+}
+.middle-container{
+    
+    background-color: #ffffff;
+    position: relative;
+    margin: 0;
+    padding: 0 50px;
+.My pic{
+        height:100px;
+        width:100px;
+        border-radius: 50%;
+    }
+    
+    
+}
+.profile >img{
+    border-radius: 2%;
+    height:300px;
+    width:300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.skills {
+    margin-top: 50px;
+}
+
+.skill-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures equal spacing */
+    width: 80%;
+    margin: 50px auto;
+    text-align: left;
+    gap: 20px;
+    flex-wrap: nowrap; /* Prevents wrapping */
+}
+
+.skill-image {
+    width: 300px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.skill-text {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4e8dc;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 50%; /* Adjusts width to ensure it aligns with the image */
+    min-width: 300px; /* Ensures it does not collapse */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    background-color: #B5C18E;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+    width: 70%;
+    margin: 20px auto 0 auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top:0;
+}
+
+.contact h2 {
+    font-size: 32px;
+    color: #5a3e2b;
+    font-family: 'Sacramento', cursive;
+}
+
+.contact h3 {
+    color: #6d4c41;
+    font-style: italic;
+}
+
+.contact p {
+    font-size: 18px;
+    color: #3c2a1f;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #A5B68D;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #6d4c41;
+}
+
+.bottom-container {
+    background-color: #6d4c41;
+    padding: 30px;
+    text-align: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: -10px;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    color: #d8c3a5;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
